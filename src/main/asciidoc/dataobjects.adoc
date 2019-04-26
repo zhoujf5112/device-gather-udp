@@ -1,0 +1,35 @@
+= Cheatsheets
+
+[[Author]]
+== Author
+
+++++
+ Created by XHD on 2018/3/15.
+++++
+'''
+
+[cols=">25%,^25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[id]]`id`|`Number (long)`|-
+|[[name]]`name`|`String`|-
+|===
+
+[[Book]]
+== Book
+
+++++
+ A book JPA entity.
+++++
+'''
+
+[cols=">25%,^25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[author]]`author`|`link:dataobjects.html#Author[Author]`|-
+|[[id]]`id`|`Number (Long)`|-
+|[[name]]`name`|`String`|-
+|===
+
